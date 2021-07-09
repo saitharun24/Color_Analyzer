@@ -15,11 +15,24 @@ For more information - https://matplotlib.org/stable/contents.html
 For more information - https://docs.opencv.org/4.5.2/
 
 ### Code Explanation
-The code is written in as a command line argument format, with the arguments being filename, --s where adding --s specifies that only the color scheme is required.<br>
+The code is written in as a command line argument format, with the arguments being filename, --s where adding --s specifies that only the color scheme is required.
+
 ![image](https://user-images.githubusercontent.com/50414959/125035982-1a988080-e0b0-11eb-85e6-2cf4fb0a4354.png)
 
 
+### Steps done in the code
+
+1. We first read the image and send it into a function that does the appropriate preprocessing steps (resize, interpolate and reshape).
+
+2. We then send the preprocessed image into the function that analyses the colors on the image and then converts the sampled colors into their respective hex code.
+
+3. The sampled colors in hex code is then used to build a pie chart showing the colors in the image.
+
+4. We then save the image along with the pie chart of the color scheme or only the color scheme based of if --s is given or not.
+
+
 ### Sample Input Image used
+
 ![resized](https://user-images.githubusercontent.com/50414959/125033649-38b0b180-e0ad-11eb-9d20-b492eb64cd7e.jpg)
 
 
