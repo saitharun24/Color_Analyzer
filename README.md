@@ -14,6 +14,9 @@ For more information - https://matplotlib.org/stable/contents.html
 **OpenCV** is an open-source computer vision library that provides privileges to play with different images and video streams and also helps in end-to-end projects like object detection, face detection, object tracking, etc.<br>
 For more information - https://docs.opencv.org/4.5.2/
 
+### Code Explanation
+The code is written in as a command line argument format, with the arguments being filename, --s where adding --s specifies that only the color scheme is required.<br>
+![image](https://user-images.githubusercontent.com/50414959/125035982-1a988080-e0b0-11eb-85e6-2cf4fb0a4354.png)
 
 
 ### Sample Input Image used
